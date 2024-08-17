@@ -122,9 +122,20 @@ const App = () => {
               id='category'
               className='border p-4 rounded-lg'
             >
-              <option selected value='pending'>Pending</option>
-              <option value='working'>Working</option>
-              <option value='completed'>Completed</option>
+              <option selected value='Electronics'>Electronics</option>
+              <option value='Computers'>Computers</option>
+              <option value='Mobile_Phones'>Mobile Phones</option>
+              <option value='Transport'>Transport</option>
+              <option value='Wearables'>Wearables</option>
+              <option value='Smart_Home'>Smart Home</option>
+              <option value='Cameras'>Cameras</option>
+              <option value='Audio'>Audio</option>
+              <option value='Accessories'>Accessories</option>
+              <option value='Home_Appliances'>Home Appliances</option>
+              <option value='Personal Care'>Personal Care</option>
+              <option value='Storage'>Storage</option>
+              <option value='Networking'>Networking</option>
+              <option value='Kitchen_Appliances'>Kitchen Appliances</option>
             </select>
           </div>
           <div>
