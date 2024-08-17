@@ -7,30 +7,32 @@ const App = () => {
   const [itemsPerPage, setItemsPerPage] = useState(4)
   const [currentPage, setCurrentPage] = useState(1)
   const [count, setCount] = useState(0)
-  const [filter, setFilter] = useState('')
-  const [sort, setSort] = useState('')
+  const [filterCategory, setFilterCategory] = useState('')
+  const [filterBrand,setFilterBrand]=useState('')
+  const [filterPrice,setFilterPrice]=useState('')
+  // const [sort, setSort] = useState('')
   const [search, setSearch] = useState('')
   const [searchText, setSearchText] = useState('')
   const [products, setProducts] = useState([])
   useEffect(() => {
     const getData = async () => {
       const { data } = await axios(
-        `http://localhost:5000/products?page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&search=${search}`
+        `http://localhost:5000/products?page=${currentPage}&size=${itemsPerPage}&filterCategory=${filterCategory}&filterBrand=${filterBrand}&filterPrice=${filterPrice}&search=${search}`
       )
       setProducts(data)
     }
     getData()
-  }, [currentPage, filter, itemsPerPage, search, sort])
+  }, [currentPage, filterBrand,filterCategory,filterPrice, itemsPerPage, search])
   useEffect(() => {
     const getCount = async () => {
       const { data } = await axios(
-        `http://localhost:5000/products-count?filter=${filter}&search=${search}`
+        `http://localhost:5000/products-count?filterCategory=${filterCategory}&filterBrand=${filterBrand}&filterPrice=${filterPrice}&search=${search}`
       )
 
       setCount(data.count)
     }
     getCount()
-  }, [filter, search])
+  }, [filterBrand,filterCategory,filterPrice,search])
 
   console.log(count)
   const numberOfPages = Math.ceil(count / itemsPerPage)
@@ -42,8 +44,10 @@ const App = () => {
     setCurrentPage(value)
   }
   const handleReset = () => {
-    setFilter('')
-    setSort('')
+    setFilterBrand('')
+    setFilterCategory('')
+    setFilterPrice('')
+    // setSort('')
     setSearch('')
     setSearchText('')
   }
@@ -78,7 +82,7 @@ const App = () => {
               </button>
             </div>
           </form>
-          <div>
+          {/* <div>
             <select
               onChange={e => {
                 setSort(e.target.value)
@@ -89,25 +93,26 @@ const App = () => {
               id='sort'
               className='border p-4 rounded-md'
             >
-              <option value=''>Sort By------</option>
+              
               <option value='dsc'>Low to High price</option>
               <option value='asc'> High to Low price</option>
               <option value='newest'>Newest to oldest date</option>
 
             </select>
-          </div>
+          </div> */}
           <div>
             <select
               onChange={e => {
-                setFilter(e.target.value)
+                setFilterCategory(e.target.value)
                 setCurrentPage(1)
               }}
-              value={filter}
+              value={filterCategory}
               name='category'
               id='category'
               className='border p-4 rounded-lg'
             >
-              <option selected value='Electronics'>Electronics</option>
+              {/* <option>Select category</option> */}
+              <option value='Electronics'>Electronics</option>
               <option value='Computers'>Computers</option>
               <option value='Mobile_Phones'>Mobile Phones</option>
               <option value='Transport'>Transport</option>
@@ -126,16 +131,16 @@ const App = () => {
           <div>
             <select
               onChange={e => {
-                setFilter(e.target.value)
+                setFilterBrand(e.target.value)
                 setCurrentPage(1)
               }}
-              value={filter}
+              value={filterBrand}
               name='brand'
               id='brand'
               className='border p-4 rounded-lg'
             >
-              
-              <option selected value='samsung'>samsung</option>
+              {/* <option>Select brand</option> */}
+              <option value='samsung'>samsung</option>
               <option value='Anik'>Anik</option>
               <option value='Sony'>Sony</option>
               <option value='Walton'>Walton</option>
@@ -145,16 +150,16 @@ const App = () => {
           <div>
             <select
               onChange={e => {
-                setFilter(e.target.value)
+                setFilterPrice(e.target.value)
                 setCurrentPage(1)
               }}
-              value={filter}
+              value={filterPrice}
               name='price_range'
               id='price_range'
               className='border p-4 rounded-lg'
             >
-              
-              <option selected value='fifty'>0-50</option>
+              {/* <option>Select price range</option> */}
+              <option value='fifty'>0-50</option>
               <option value='hundred'>51-100</option>
               <option value='five_hundred'>101-500</option>
               <option value='thousand'>501-1000</option>
@@ -165,7 +170,8 @@ const App = () => {
             Reset
           </button>
         </div>
-        <div className='grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+        <div className='grid grid-cols-1 gap-4 mt-4 xl:mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+          
           {products.map(product => (
             <ProductCard key={product._id} product={product} />
           ))}
