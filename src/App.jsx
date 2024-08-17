@@ -145,14 +145,16 @@ const App = () => {
                 setCurrentPage(1)
               }}
               value={filter}
-              name='category'
-              id='category'
+              name='brand'
+              id='brand'
               className='border p-4 rounded-lg'
             >
               
-              <option selected value='pending'>Pending</option>
-              <option value='working'>Working</option>
-              <option value='completed'>Completed</option>
+              <option selected value='samsung'>samsung</option>
+              <option value='Anik'>Anik</option>
+              <option value='Sony'>Sony</option>
+              <option value='Walton'>Walton</option>
+              <option value='Sony'>Sony</option>
             </select>
           </div>
           <div>
@@ -162,14 +164,16 @@ const App = () => {
                 setCurrentPage(1)
               }}
               value={filter}
-              name='category'
-              id='category'
+              name='price_range'
+              id='price_range'
               className='border p-4 rounded-lg'
             >
               
-              <option selected value='pending'>Pending</option>
-              <option value='working'>Working</option>
-              <option value='completed'>Completed</option>
+              <option selected value='fifty'>0-50</option>
+              <option value='hundred'>51-100</option>
+              <option value='five_hundred'>101-500</option>
+              <option value='thousand'>501-1000</option>
+              <option value='five_thousand'>1001-5000</option>
             </select>
           </div>
           <button onClick={handleReset} className='btn'>
