@@ -1,424 +1,424 @@
 [
     {
-      "Product Name": "UltraHD 4K TV",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/vYNzVKZ/Ultra-HD-4-K-TV.jpg",
+      "product_name": "UltraHD 4K TV",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/vYNzVKZ/Ultra-HD-4-K-TV.jpg",
       "Description": "A 55-inch 4K Ultra HD Smart LED TV with HDR and Alexa Compatibility.",
       "Price": 899.99,
       "Category": "Electronics",
       "Ratings": 4.5,
-      "Product Creation Date": "2024-08-16T10:15:30"
+      "creation_date": "2024-08-16T10:15:30"
     },
     {
-      "Product Name": "Wireless Bluetooth Headphones",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/hHKMwj1/Wireless-Bluetooth-Headphones.jpg",
+      "product_name": "Wireless Bluetooth Headphones",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/hHKMwj1/Wireless-Bluetooth-Headphones.jpg",
       "Description": "Over-ear, noise-cancelling headphones with up to 40 hours of battery life.",
       "Price": 199.99,
       "Category": "Electronics",
       "Ratings": 4.8,
-      "Product Creation Date": "2024-08-16T11:20:45"
+      "creation_date": "2024-08-16T11:20:45"
     },
     {
-      "Product Name": "Gaming Laptop",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/GnL7BWq/gaming-laptop.jpg",
+      "product_name": "Gaming Laptop",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/GnL7BWq/gaming-laptop.jpg",
       "Description": "High-performance gaming laptop with Intel i7 processor and NVIDIA GTX 1660Ti.",
       "Price": 1299.99,
       "Category": "Computers",
       "Ratings": 4.7,
-      "Product Creation Date": "2024-08-16T12:35:50"
+      "creation_date": "2024-08-16T12:35:50"
     },
     {
-      "Product Name": "Smartphone Pro Max",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/mB8dMWn/smartphone-pro-max.jpg",
+      "product_name": "Smartphone Pro Max",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/mB8dMWn/smartphone-pro-max.jpg",
       "Description": "Latest smartphone with 128GB storage, 6.7-inch display, and triple-camera system.",
       "Price": 1099.99,
       "Category": "Mobile Phones",
       "Ratings": 4.9,
-      "Product Creation Date": "2024-08-16T13:40:00"
+      "creation_date": "2024-08-16T13:40:00"
     },
     {
-      "Product Name": "Electric Scooter",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/sHpnVkh/electric-scooter.jpg",
+      "product_name": "Electric Scooter",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/sHpnVkh/electric-scooter.jpg",
       "Description": "Foldable electric scooter with a top speed of 25 km/h and 30 km range.",
       "Price": 499.99,
       "Category": "Transport",
       "Ratings": 4.3,
-      "Product Creation Date": "2024-08-16T14:15:20"
+      "creation_date": "2024-08-16T14:15:20"
     },
     {
-      "Product Name": "Fitness Tracker",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/3TKTTZf/fitness-tracker.jpg",
+      "product_name": "Fitness Tracker",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/3TKTTZf/fitness-tracker.jpg",
       "Description": "Waterproof fitness tracker with heart rate monitoring and GPS tracking.",
       "Price": 79.99,
       "Category": "Wearables",
       "Ratings": 4.2,
-      "Product Creation Date": "2024-08-16T15:30:10"
+      "creation_date": "2024-08-16T15:30:10"
     },
     {
-      "Product Name": "Smart Home Hub",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/N6sDmbD/smart-home-hub.jpg",
+      "product_name": "Smart Home Hub",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/N6sDmbD/smart-home-hub.jpg",
       "Description": "Voice-controlled smart home hub compatible with all major smart devices.",
       "Price": 149.99,
       "Category": "Smart Home",
       "Ratings": 4.6,
-      "Product Creation Date": "2024-08-16T16:45:55"
+      "creation_date": "2024-08-16T16:45:55"
     },
     {
-      "Product Name": "Digital SLR Camera",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/9cyJHXW/dslr-camera.jpg",
+      "product_name": "Digital SLR Camera",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/9cyJHXW/dslr-camera.jpg",
       "Description": "24.2 MP DSLR camera with 18-55mm lens and built-in Wi-Fi.",
       "Price": 649.99,
       "Category": "Cameras",
       "Ratings": 4.4,
-      "Product Creation Date": "2024-08-16T17:25:30"
+      "creation_date": "2024-08-16T17:25:30"
     },
     {
-      "Product Name": "Noise-Cancelling Earbuds",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/N7nb9LS/earbuds-noise-cancelling.jpg",
+      "product_name": "Noise-Cancelling Earbuds",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/N7nb9LS/earbuds-noise-cancelling.jpg",
       "Description": "True wireless earbuds with active noise cancellation and 20-hour battery life.",
       "Price": 159.99,
       "Category": "Audio",
       "Ratings": 4.7,
-      "Product Creation Date": "2024-08-16T18:15:40"
+      "creation_date": "2024-08-16T18:15:40"
     },
     {
-      "Product Name": "Portable Bluetooth Speaker",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/pXmcZXg/portable-speaker.jpg",
+      "product_name": "Portable Bluetooth Speaker",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/pXmcZXg/portable-speaker.jpg",
       "Description": "Compact Bluetooth speaker with 360-degree sound and 12 hours of playtime.",
       "Price": 89.99,
       "Category": "Audio",
       "Ratings": 4.5,
-      "Product Creation Date": "2024-08-16T19:00:25"
+      "creation_date": "2024-08-16T19:00:25"
     },
     {
-      "Product Name": "Smart Thermostat",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/p1KrN0b/smart-thermostat.jpg",
+      "product_name": "Smart Thermostat",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/p1KrN0b/smart-thermostat.jpg",
       "Description": "Wi-Fi-enabled smart thermostat with energy-saving features.",
       "Price": 129.99,
       "Category": "Smart Home",
       "Ratings": 4.6,
-      "Product Creation Date": "2024-08-16T20:10:00"
+      "creation_date": "2024-08-16T20:10:00"
     },
     {
-      "Product Name": "4K Action Camera",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/0G3jBzN/61w-Vlyn-Zo-SL-AC-UF894-1000-QL80.jpg",
+      "product_name": "4K Action Camera",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/0G3jBzN/61w-Vlyn-Zo-SL-AC-UF894-1000-QL80.jpg",
       "Description": "Waterproof action camera with 4K video recording and image stabilization.",
       "Price": 299.99,
       "Category": "Cameras",
       "Ratings": 4.8,
-      "Product Creation Date": "2024-08-16T21:05:45"
+      "creation_date": "2024-08-16T21:05:45"
     },
     {
-      "Product Name": "Wireless Charger",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/4pVDLPD/wireless-charger.jpg",
+      "product_name": "Wireless Charger",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/4pVDLPD/wireless-charger.jpg",
       "Description": "Fast wireless charger compatible with all Qi-enabled devices.",
       "Price": 39.99,
       "Category": "Accessories",
       "Ratings": 4.3,
-      "Product Creation Date": "2024-08-16T22:00:50"
+      "creation_date": "2024-08-16T22:00:50"
     },
     {
-      "Product Name": "Smart Light Bulb",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/mzLbqTh/smart-light-bulb.jpg",
+      "product_name": "Smart Light Bulb",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/mzLbqTh/smart-light-bulb.jpg",
       "Description": "Color-changing LED smart bulb with app control and voice activation.",
       "Price": 19.99,
       "Category": "Smart Home",
       "Ratings": 4.4,
-      "Product Creation Date": "2024-08-16T23:15:00"
+      "creation_date": "2024-08-16T23:15:00"
     },
     {
-      "Product Name": "Laptop Stand",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/9NVkYNP/laptop-stand.jpg",
+      "product_name": "Laptop Stand",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/9NVkYNP/laptop-stand.jpg",
       "Description": "Adjustable aluminum laptop stand with cooling vents and non-slip pads.",
       "Price": 49.99,
       "Category": "Computers",
       "Ratings": 4.7,
-      "Product Creation Date": "2024-08-17T00:25:15"
+      "creation_date": "2024-08-17T00:25:15"
     },
     {
-      "Product Name": "Wireless Mouse",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/LtMRG9T/wireless-mouse.jpg",
+      "product_name": "Wireless Mouse",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/LtMRG9T/wireless-mouse.jpg",
       "Description": "Ergonomic wireless mouse with adjustable DPI and 12-month battery life.",
       "Price": 29.99,
       "Category": "Computers",
       "Ratings": 4.5,
-      "Product Creation Date": "2024-08-17T01:30:45"
+      "creation_date": "2024-08-17T01:30:45"
     },
     {
-      "Product Name": "Bluetooth Keyboard",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/fX9ZFDR/bluetooth-keyboard.jpg",
+      "product_name": "Bluetooth Keyboard",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/fX9ZFDR/bluetooth-keyboard.jpg",
       "Description": "Slim Bluetooth keyboard with multi-device connectivity and rechargeable battery.",
       "Price": 59.99,
       "Category": "Computers",
       "Ratings": 4.6,
-      "Product Creation Date": "2024-08-17T02:15:20"
+      "creation_date": "2024-08-17T02:15:20"
     },
     {
-      "Product Name": "Smart Watch",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/gjc6TG5/smart-watch.jpg",
+      "product_name": "Smart Watch",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/gjc6TG5/smart-watch.jpg",
       "Description": "Stylish smartwatch with fitness tracking, heart rate monitor, and notifications.",
       "Price": 199.99,
       "Category": "Wearables",
       "Ratings": 4.7,
-      "Product Creation Date": "2024-08-17T03:00:50"
+      "creation_date": "2024-08-17T03:00:50"
     },
     {
-      "Product Name": "Portable Power Bank",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/wSfdScS/power-bank.jpg",
+      "product_name": "Portable Power Bank",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/wSfdScS/power-bank.jpg",
       "Description": "10,000mAh portable power bank with dual USB output and fast charging.",
       "Price": 34.99,
       "Category": "Accessories",
       "Ratings": 4.4,
-      "Product Creation Date": "2024-08-17T04:15:10"
+      "creation_date": "2024-08-17T04:15:10"
     },
     {
-      "Product Name": "HDMI Cable",
-      "Brand Name":"samsung",
-      "Product Image": "https://i.ibb.co/FXZGctZ/hdmi-cable.jpg",
+      "product_name": "HDMI Cable",
+      "brand_name":"samsung",
+      "product_image": "https://i.ibb.co/FXZGctZ/hdmi-cable.jpg",
       "Description": "6-foot high-speed HDMI cable with 4K and 3D support.",
       "Price": 14.99,
       "Category": "Accessories",
       "Ratings": 4.5,
-      "Product Creation Date": "2024-08-17T05:00:25"
+      "creation_date": "2024-08-17T05:00:25"
     },
     {
-      "Product Name": "Noise-Cancelling Headphones",
-      "Brand Name":"Anik",
-      "Product Image": "https://i.ibb.co/r3cGDzt/noise-cancelling-headphones.jpg",
+      "product_name": "Noise-Cancelling Headphones",
+      "brand_name":"Anik",
+      "product_image": "https://i.ibb.co/r3cGDzt/noise-cancelling-headphones.jpg",
       "Description": "Over-ear noise-cancelling headphones with deep bass and 30-hour battery life.",
       "Price": 249.99,
       "Category": "Audio",
       "Ratings": 4.8,
-      "Product Creation Date": "2024-08-17T06:10:00"
+      "creation_date": "2024-08-17T06:10:00"
     },
     {
-      "Product Name": "Smart Coffee Maker",
-      "Brand Name":"Anik",
-      "Product Image": "https://i.ibb.co/44YcYMF/smart-coffee-maker.jpg",
+      "product_name": "Smart Coffee Maker",
+      "brand_name":"Anik",
+      "product_image": "https://i.ibb.co/44YcYMF/smart-coffee-maker.jpg",
       "Description": "Wi-Fi-enabled coffee maker with programmable brewing and voice control.",
       "Price": 99.99,
       "Category": "Kitchen Appliances",
       "Ratings": 4.3,
-      "Product Creation Date": "2024-08-17T07:15:30"
+      "creation_date": "2024-08-17T07:15:30"
     },
     
     {
-          "Product Name": "Robot Vacuum Cleaner",
-          "Brand Name":"Anik",
-          "Product Image": "https://i.ibb.co/qD51TCV/robot-vacuum.jpg",
+          "product_name": "Robot Vacuum Cleaner",
+          "brand_name":"Anik",
+          "product_image": "https://i.ibb.co/qD51TCV/robot-vacuum.jpg",
           "Description": "Smart robot vacuum with Wi-Fi connectivity and auto-recharge feature.",
           "Price": 299.99,
           "Category": "Home Appliances",
           "Ratings": 4.6,
-          "Product Creation Date": "2024-08-17T08:30:20"
+          "creation_date": "2024-08-17T08:30:20"
         },
         {
-          "Product Name": "Smart Doorbell",
-          "Brand Name":"Anik",
-          "Product Image": "https://i.ibb.co/zFC5mVF/smart-doorbell.jpg",
+          "product_name": "Smart Doorbell",
+          "brand_name":"Anik",
+          "product_image": "https://i.ibb.co/zFC5mVF/smart-doorbell.jpg",
           "Description": "Video doorbell with motion detection, 2-way audio, and night vision.",
           "Price": 129.99,
           "Category": "Smart Home",
           "Ratings": 4.7,
-          "Product Creation Date": "2024-08-17T09:20:45"
+          "creation_date": "2024-08-17T09:20:45"
         },
         {
-          "Product Name": "Electric Toothbrush",
-          "Brand Name":"Anik",
-          "Product Image": "https://i.ibb.co/j6f62kQ/electric-toothbrush.jpg",
+          "product_name": "Electric Toothbrush",
+          "brand_name":"Anik",
+          "product_image": "https://i.ibb.co/j6f62kQ/electric-toothbrush.jpg",
           "Description": "Rechargeable electric toothbrush with pressure sensor and 2-minute timer.",
           "Price": 79.99,
           "Category": "Personal Care",
           "Ratings": 4.5,
-          "Product Creation Date": "2024-08-17T10:15:30"
+          "creation_date": "2024-08-17T10:15:30"
         },
         {
-          "Product Name": "Air Purifier",
-          "Brand Name":"Sony",
-          "Product Image": "https://i.ibb.co/7KcTHBy/air-purifier.jpg",
+          "product_name": "Air Purifier",
+          "brand_name":"Sony",
+          "product_image": "https://i.ibb.co/7KcTHBy/air-purifier.jpg",
           "Description": "HEPA air purifier with 3-stage filtration for rooms up to 500 sq ft.",
           "Price": 159.99,
           "Category": "Home Appliances",
           "Ratings": 4.4,
-          "Product Creation Date": "2024-08-17T11:30:55"
+          "creation_date": "2024-08-17T11:30:55"
         },
         {
-          "Product Name": "Smart Plug",
-          "Brand Name":"Sony",
-          "Product Image": "https://i.ibb.co/600JfpD/smart-plug.jpg",
+          "product_name": "Smart Plug",
+          "brand_name":"Sony",
+          "product_image": "https://i.ibb.co/600JfpD/smart-plug.jpg",
           "Description": "Wi-Fi-enabled smart plug with app control and voice activation.",
           "Price": 24.99,
           "Category": "Smart Home",
           "Ratings": 4.3,
-          "Product Creation Date": "2024-08-17T12:45:40"
+          "creation_date": "2024-08-17T12:45:40"
         },
         {
-          "Product Name": "Gaming Mouse",
-          "Brand Name":"Sony",
-          "Product Image": "https://i.ibb.co/2Sr0XCQ/gaming-mouse.jpg",
+          "product_name": "Gaming Mouse",
+          "brand_name":"Sony",
+          "product_image": "https://i.ibb.co/2Sr0XCQ/gaming-mouse.jpg",
           "Description": "RGB gaming mouse with 16,000 DPI sensor and 11 programmable buttons.",
           "Price": 69.99,
           "Category": "Computers",
           "Ratings": 4.7,
-          "Product Creation Date": "2024-08-17T13:35:15"
+          "creation_date": "2024-08-17T13:35:15"
         },
         {
-          "Product Name": "Portable SSD",
-          "Brand Name":"Sony",
-          "Product Image": "https://i.ibb.co/kG7BY5g/portable-ssd.jpg",
+          "product_name": "Portable SSD",
+          "brand_name":"Sony",
+          "product_image": "https://i.ibb.co/kG7BY5g/portable-ssd.jpg",
           "Description": "1TB portable SSD with USB-C and ultra-fast read/write speeds.",
           "Price": 149.99,
           "Category": "Storage",
           "Ratings": 4.8,
-          "Product Creation Date": "2024-08-17T14:20:50"
+          "creation_date": "2024-08-17T14:20:50"
         },
         {
-          "Product Name": "Smart Mirror",
-          "Brand Name":"Sony",
-          "Product Image": "https://i.ibb.co/Smv0G4C/smart-mirror.jpg",
+          "product_name": "Smart Mirror",
+          "brand_name":"Sony",
+          "product_image": "https://i.ibb.co/Smv0G4C/smart-mirror.jpg",
           "Description": "Touchscreen smart mirror with integrated apps and voice assistant.",
           "Price": 299.99,
           "Category": "Smart Home",
           "Ratings": 4.6,
-          "Product Creation Date": "2024-08-17T15:15:00"
+          "creation_date": "2024-08-17T15:15:00"
         },
         {
-          "Product Name": "Wi-Fi Range Extender",
-          "Brand Name":"Sony",
-          "Product Image": "wifi-extender.jpg",
+          "product_name": "Wi-Fi Range Extender",
+          "brand_name":"Sony",
+          "product_image": "wifi-extender.jpg",
           "Description": "Dual-band Wi-Fi range extender with Ethernet port and signal indicator.",
           "Price": 59.99,
           "Category": "Networking",
           "Ratings": 4.4,
-          "Product Creation Date": "2024-08-17T16:05:25"
+          "creation_date": "2024-08-17T16:05:25"
         },
         {
-          "Product Name": "Smart Water Bottle",
-          "Brand Name":"Sony",
-          "Product Image": "smart-water-bottle.jpg",
+          "product_name": "Smart Water Bottle",
+          "brand_name":"Sony",
+          "product_image": "smart-water-bottle.jpg",
           "Description": "Insulated smart water bottle with hydration tracking and LED reminders.",
           "Price": 49.99,
           "Category": "Wearables",
           "Ratings": 4.5,
-          "Product Creation Date": "2024-08-17T17:10:35"
+          "creation_date": "2024-08-17T17:10:35"
         },
         {
-          "Product Name": "Smart Air Fryer",
-          "Brand Name":"Sony",
-          "Product Image": "smart-air-fryer.jpg",
+          "product_name": "Smart Air Fryer",
+          "brand_name":"Sony",
+          "product_image": "smart-air-fryer.jpg",
           "Description": "Digital air fryer with app control and customizable cooking presets.",
           "Price": 129.99,
           "Category": "Kitchen Appliances",
           "Ratings": 4.7,
-          "Product Creation Date": "2024-08-17T18:25:45"
+          "creation_date": "2024-08-17T18:25:45"
         },
         {
-          "Product Name": "Streaming Stick",
-          "Brand Name":"Sony",
-          "Product Image": "streaming-stick.jpg",
+          "product_name": "Streaming Stick",
+          "brand_name":"Sony",
+          "product_image": "streaming-stick.jpg",
           "Description": "4K streaming stick with voice remote and access to thousands of apps.",
           "Price": 49.99,
           "Category": "Electronics",
           "Ratings": 4.6,
-          "Product Creation Date": "2024-08-17T19:30:55"
+          "creation_date": "2024-08-17T19:30:55"
         },
         {
-          "Product Name": "Wireless Charging Pad",
-          "Brand Name":"Sony",
-          "Product Image": "wireless-charging-pad.jpg",
+          "product_name": "Wireless Charging Pad",
+          "brand_name":"Sony",
+          "product_image": "wireless-charging-pad.jpg",
           "Description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
           "Price": 39.99,
           "Category": "Accessories",
           "Ratings": 4.4,
-          "Product Creation Date": "2024-08-17T20:45:10"
+          "creation_date": "2024-08-17T20:45:10"
         },
         {
-          "Product Name": "Smart Lock",
-          "Brand Name":"Sony",
-          "Product Image": "smart-lock.jpg",
+          "product_name": "Smart Lock",
+          "brand_name":"Sony",
+          "product_image": "smart-lock.jpg",
           "Description": "Keyless smart lock with Wi-Fi connectivity and app control.",
           "Price": 199.99,
           "Category": "Smart Home",
           "Ratings": 4.6,
-          "Product Creation Date": "2024-08-17T21:55:30"
+          "creation_date": "2024-08-17T21:55:30"
         },
         {
-          "Product Name": "Digital Photo Frame",
-          "Brand Name":"Walton",
-          "Product Image": "digital-photo-frame.jpg",
+          "product_name": "Digital Photo Frame",
+          "brand_name":"Walton",
+          "product_image": "digital-photo-frame.jpg",
           "Description": "Wi-Fi digital photo frame with 10-inch display and cloud storage.",
           "Price": 149.99,
           "Category": "Home Decor",
           "Ratings": 4.5,
-          "Product Creation Date": "2024-08-17T22:40:25"
+          "creation_date": "2024-08-17T22:40:25"
         },
         {
-          "Product Name": "Bluetooth Car Adapter",
-          "Brand Name":"Walton",
-          "Product Image": "bluetooth-car-adapter.jpg",
+          "product_name": "Bluetooth Car Adapter",
+          "brand_name":"Walton",
+          "product_image": "bluetooth-car-adapter.jpg",
           "Description": "Bluetooth adapter for cars with hands-free calling and music streaming.",
           "Price": 29.99,
           "Category": "Car Accessories",
           "Ratings": 4.4,
-          "Product Creation Date": "2024-08-17T23:55:50"
+          "creation_date": "2024-08-17T23:55:50"
         },
         {
-          "Product Name": "Smart Security Camera",
-          "Brand Name":"Walton",
-          "Product Image": "smart-security-camera.jpg",
+          "product_name": "Smart Security Camera",
+          "brand_name":"Walton",
+          "product_image": "smart-security-camera.jpg",
           "Description": "1080p HD smart security camera with night vision and motion alerts.",
           "Price": 99.99,
           "Category": "Smart Home",
           "Ratings": 4.7,
-          "Product Creation Date": "2024-08-18T00:15:10"
+          "creation_date": "2024-08-18T00:15:10"
         },
         {
-          "Product Name": "LED Desk Lamp",
-          "Brand Name":"Walton",
-          "Product Image": "led-desk-lamp.jpg",
+          "product_name": "LED Desk Lamp",
+          "brand_name":"Walton",
+          "product_image": "led-desk-lamp.jpg",
           "Description": "Adjustable LED desk lamp with touch controls and USB charging port.",
           "Price": 39.99,
           "Category": "Home Office",
           "Ratings": 4.6,
-          "Product Creation Date": "2024-08-18T01:10:30"
+          "creation_date": "2024-08-18T01:10:30"
         },
         {
-          "Product Name": "Portable Projector",
-          "Brand Name":"Walton",
-          "Product Image": "portable-projector.jpg",
+          "product_name": "Portable Projector",
+          "brand_name":"Walton",
+          "product_image": "portable-projector.jpg",
           "Description": "Mini portable projector with 1080p support and HDMI input.",
           "Price": 249.99,
           "Category": "Electronics",
           "Ratings": 4.5,
-          "Product Creation Date": "2024-08-18T02:30:50"
+          "creation_date": "2024-08-18T02:30:50"
         },
         {
-          "Product Name": "USB-C Hub",
-          "Brand Name":"Walton",
-          "Product Image": "usb-c-hub.jpg",
+          "product_name": "USB-C Hub",
+          "brand_name":"Walton",
+          "product_image": "usb-c-hub.jpg",
           "Description": "6-in-1 USB-C hub with HDMI, USB 3.0 ports, and SD card reader.",
           "Price": 49.99,
           "Category": "Accessories",
           "Ratings": 4.7,
-          "Product Creation Date": "2024-08-18T03:45:25"
+          "creation_date": "2024-08-18T03:45:25"
         }
       ]
       
