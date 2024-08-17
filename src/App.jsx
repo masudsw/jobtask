@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const getData = async () => {
       const { data } = await axios(
-        `http://localhost:5000/products?page=${currentPage}&size=${itemsPerPage}&filterCategory=${filterCategory}&filterBrand=${filterBrand}&filterPrice=${filterPrice}&search=${search}`
+        `https://server-woad-five.vercel.app/products?page=${currentPage}&size=${itemsPerPage}&filterCategory=${filterCategory}&filterBrand=${filterBrand}&filterPrice=${filterPrice}&search=${search}`
       )
       setProducts(data)
     }
@@ -26,7 +26,7 @@ const App = () => {
   useEffect(() => {
     const getCount = async () => {
       const { data } = await axios(
-        `http://localhost:5000/products-count?filterCategory=${filterCategory}&filterBrand=${filterBrand}&filterPrice=${filterPrice}&search=${search}`
+        `https://server-woad-five.vercel.app/products-count?filterCategory=${filterCategory}&filterBrand=${filterBrand}&filterPrice=${filterPrice}&search=${search}`
       )
 
       setCount(data.count)
